@@ -1,0 +1,180 @@
+/* Headers and Default*/
+body {
+  font-family: Montserrat;
+  /* background-color: lightgrey; */
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h4{
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+h5{
+  font-weight:normal;
+}
+
+li{
+  color: #8f8f8f;
+}
+
+p{
+  color: #8f8f8f;
+}
+/* Nav Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 10px 0 10px;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.brand-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Ubuntu;
+}
+
+/* title */
+#title {
+  color: white;
+  background-color: #ff4c68;
+}
+.phone-rotation {
+  position: absolute;
+  transform: translate(150px, 25px) rotate(15deg);
+  width: 60%
+}
+
+@media (max-width: 991px){
+  #title{text-align: center;}
+  .phone-rotation {
+    position: relative;
+    transform: rotate(0deg);
+
+    width: 60%
+  }
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.center-text{
+  text-align: center;
+}
+/* Buttons */
+.button-download {
+  margin: 7% 20px 0 0%;
+}
+
+.title-column{
+padding: 0 0 2% 0;
+
+}
+/*features */
+#features{
+  position: relative;
+  background-color: white;
+}
+
+.icon-styling {
+  font-size: 4rem;
+  color: #ef8172;
+  padding: 25px;
+}
+
+.icon-styling:hover {
+  font-size: 4.25rem;
+  color: #ff4c68;
+
+}
+
+.icon-padding{
+  text-align: center;
+  padding: 7%;
+}
+
+/* testimonial section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* Press */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.img-press{
+  width: 15%;
+  margin: 20 20 50;
+}
+/* pricing */
+
+#pricing{
+  text-align: center;
+  padding: 5%;
+}
+
+.pricing-column{
+  padding-top: 5%;
+}
+
+/* call to action */
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10%;
+}
+
+/* footer */
+#footer{
+  padding: 2% 0 0;
+  text-align: center;
+}
+.soc-med-tag{
+  padding: .25rem;
+  color: inherit;
+}
+.soc-med-tag:hover{
+  color: grey;
+  text-decoration: none;
+}
