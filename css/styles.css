@@ -165,7 +165,12 @@ padding: 0 0 2% 0;
   background-color: #ff4c68;
   padding: 10%;
 }
-
+.cta-heading{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding: 0 15% 1%
+}
 /* footer */
 #footer{
   padding: 2% 0 0;
