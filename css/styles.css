@@ -1,6 +1,7 @@
 /* Headers and Default*/
 body {
   font-family: Montserrat;
+  text-align: center;
   }
 h1, h2, h3, h4, h5, h6{
   font-family: Montserrat;
@@ -70,6 +71,7 @@ p{
 #title {
   color: white;
   background-color: #ff4c68;
+  text-align: left;
 }
 
 .phone-rotation {
@@ -118,13 +120,11 @@ padding: 0 0 2% 0;
 }
 
 .icon-padding{
-  text-align: center;
   padding: 7%;
 }
 
 /* testimonial section */
 #testimonials{
-  text-align: center;
   background-color: #ef8172;
   color: white;
 }
@@ -140,7 +140,6 @@ padding: 0 0 2% 0;
 #press{
   background-color: #ef8172;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 .img-press{
@@ -150,7 +149,7 @@ padding: 0 0 2% 0;
 /* pricing */
 
 #pricing{
-  text-align: center;
+
   padding: 5%;
 }
 
@@ -161,20 +160,22 @@ padding: 0 0 2% 0;
 /* call to action */
 
 #cta{
-  text-align: center;
+
   background-color: #ff4c68;
   padding: 10%;
 }
+
 .cta-heading{
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
   padding: 0 15% 1%
 }
+
 /* footer */
 #footer{
   padding: 2% 0 0;
-  text-align: center;
+
 }
 .soc-med-tag{
   padding: .25rem;
